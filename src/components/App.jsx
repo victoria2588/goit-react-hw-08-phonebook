@@ -11,7 +11,6 @@ import { Phonebook } from './Phonebook/Phonebook';
 const HomePage = lazy(() => import('../pages/Home'));
 const RegisterPage = lazy(() => import('../pages/Register'));
 const LoginPage = lazy(() => import('../pages/Login'));
-// const TasksPage = lazy(() => import('../pages/Tasks'));
 
 export const App = () => {
   const dispatch = useDispatch();
