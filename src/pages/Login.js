@@ -8,3 +8,15 @@ export default function Login() {
     </div>
   );
 }
+
+// import { LoginForm } from 'components/LoginForm/LoginForm';
+// import { LoginTitle, LoginkWrapper } from './Login.styled';
+
+// export default function Login() {
+//   return (
+//     <LoginkWrapper>
+//       <LoginTitle>Login in</LoginTitle>
+//       <LoginForm />
+//     </LoginkWrapper>
+//   );
+// }

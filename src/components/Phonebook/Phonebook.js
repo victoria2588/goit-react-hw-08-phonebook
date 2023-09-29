@@ -5,6 +5,12 @@ import { ContactList } from '../ContactList/ContactList';
 import { Filter } from '../Filter/Filter';
 import { fetchContacts } from 'redux/operations';
 import { selectError, selectIsLoading } from 'redux/selectors';
+import {
+  PhonebookContainer,
+  TitleContacts,
+  TitlePhoneBook,
+  PhonebookWrapper,
+} from './Phonebook.styled';
 
 export const Phonebook = () => {
   const dispatch = useDispatch();
@@ -16,15 +22,17 @@ export const Phonebook = () => {
   }, [dispatch]);
 
   return (
-    <div>
-      <h1>Phonebook</h1>
-      <ContactForm />
+    <PhonebookContainer>
+      <PhonebookWrapper>
+        <TitlePhoneBook>Phonebook</TitlePhoneBook>
+        <ContactForm />
 
-      <h2>Contacts</h2>
-      <Filter />
-      {(isLoading && !error && <b>Request in progress...</b>) || (
-        <ContactList />
-      )}
-    </div>
+        <TitleContacts>Contacts</TitleContacts>
+        <Filter />
+        {(isLoading && !error && <b>Request in progress...</b>) || (
+          <ContactList />
+        )}
+      </PhonebookWrapper>
+    </PhonebookContainer>
   );
 };

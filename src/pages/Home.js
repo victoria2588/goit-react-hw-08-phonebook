@@ -1,13 +1,9 @@
-// export const Home = () => (
-//   <div>
-//     <h1>Welcome to PHONEBOOK!</h1>
-//   </div>
-// );
+import { HomeContainer, HomeTitle } from './Home.styled';
 
 export default function Home() {
   return (
-    <div>
-      <h1>Welcome to PHONEBOOK!</h1>
-    </div>
+    <HomeContainer>
+      <HomeTitle>Welcome to PHONEBOOK!</HomeTitle>
+    </HomeContainer>
   );
 }
