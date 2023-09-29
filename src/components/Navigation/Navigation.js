@@ -7,9 +7,7 @@ export const Navigation = () => {
   return (
     <nav>
       <AuthNavLink to="/">Home</AuthNavLink>
-      {isLoggedIn && (
-        <AuthNavLink to="/contacts">Youre contacts books</AuthNavLink>
-      )}
+      {isLoggedIn && <AuthNavLink to="/contacts">Contacts</AuthNavLink>}
     </nav>
   );
 };
