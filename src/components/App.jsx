@@ -7,7 +7,6 @@ import { RestrictedRoute } from './RestrictedRoute';
 import { refreshUser } from 'redux/auth/operations';
 import { useAuth } from 'hooks';
 import { Phonebook } from './Phonebook/Phonebook';
-import { GlobalStyle } from './GlobalStyle';
 
 const HomePage = lazy(() => import('../pages/Home'));
 const RegisterPage = lazy(() => import('../pages/Register'));
