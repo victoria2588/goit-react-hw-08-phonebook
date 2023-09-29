@@ -10,6 +10,7 @@ import {
   TitleContacts,
   TitlePhoneBook,
   PhonebookWrapper,
+  PhonebookText,
 } from './Phonebook.styled';
 
 export const Phonebook = () => {
@@ -29,9 +30,9 @@ export const Phonebook = () => {
 
         <TitleContacts>Contacts</TitleContacts>
         <Filter />
-        {(isLoading && !error && <b>Request in progress...</b>) || (
-          <ContactList />
-        )}
+        {(isLoading && !error && (
+          <PhonebookText>Request in progress...</PhonebookText>
+        )) || <ContactList />}
       </PhonebookWrapper>
     </PhonebookContainer>
   );

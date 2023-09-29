@@ -34,3 +34,9 @@ export const PhonebookWrapper = styled.div`
   border-radius: 8px;
   background-color: #faa7eb;
 `;
+
+export const PhonebookText = styled.div`
+  font-size: 18px;
+  color: #630d70;
+  font-weight: 500;
+`;
