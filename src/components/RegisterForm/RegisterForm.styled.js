@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
-export const LoginFormUser = styled.form`
+export const RegisterFormUser = styled.form`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 `;
 
-export const LoginButton = styled.button`
+export const RegisterButton = styled.button`
   background: #d93bd6;
   border: 1px solid #d93bd6;
   border-radius: 6px;
@@ -32,7 +32,7 @@ export const LoginButton = styled.button`
   }
 `;
 
-export const LoginInputField = styled.input`
+export const RegisterInputField = styled.input`
   border: 0;
   outline: 1px solid #4e0963;
   border-radius: 3px;
@@ -42,7 +42,7 @@ export const LoginInputField = styled.input`
   padding-left: 5px;
 `;
 
-export const LoginLabel = styled.label`
+export const RegisterLabel = styled.label`
   display: block;
   color: #4e0963;
   font-size: 18px;

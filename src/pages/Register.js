@@ -1,10 +1,17 @@
 import { RegisterForm } from 'components/RegisterForm/RegisterForm';
+import {
+  RegisterContainer,
+  RegisterTitle,
+  RegisterWrapper,
+} from './Register.styled';
 
 export default function Register() {
   return (
-    <div>
-      <h2>Registration page</h2>
-      <RegisterForm />
-    </div>
+    <RegisterContainer>
+      <RegisterWrapper>
+        <RegisterTitle>Registration</RegisterTitle>
+        <RegisterForm />
+      </RegisterWrapper>
+    </RegisterContainer>
   );
 }
