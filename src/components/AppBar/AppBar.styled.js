@@ -9,7 +9,6 @@ export const Header = styled.header`
   justify-content: space-between;
   align-items: center;
   padding-left: 8px;
-  /* border-radius: 5px; */
   padding-right: 8px;
   background-color: rgb(250, 167, 235);
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),

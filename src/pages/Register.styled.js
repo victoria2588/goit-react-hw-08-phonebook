@@ -6,7 +6,6 @@ export const RegisterContainer = styled.div`
   border: 1px solid #ffffff;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  /* margin-bottom: 15px; */
   margin: 15px auto;
 `;
 
